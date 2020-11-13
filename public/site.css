@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+
+.main-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.main-container .title {
+    margin-top: -19px !important;
+    font-size: 16px !important;
+}
+
+.main-container label {
+    font-weight: initial;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    background: url(bg.png);
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container .nes-container {
+    /*background: rgba(255, 255, 255, 0.9);*/
+}
+
+.main-container textarea {
+    height: 280px;
+}
+
+.nes-container {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    vertical-align: top;
+    height: 340px;
+}
